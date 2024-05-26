@@ -8,18 +8,18 @@ const SimilarProductItem = props => {
       <img
         src={imageUrl}
         alt={`similar product ${title}`}
-        className="thumbnail"
+        className="similar-thumbnail"
       />
-      <h1 className="title">{title}</h1>
-      <p className="brand">by {brand}</p>
-      <div className="product-details">
-        <p className="price">Rs {price}/-</p>
-        <div className="rating-container">
-          <p className="rating">{rating}</p>
+      <h1 className="similar-title">{title}</h1>
+      <p className="similar-brand">by {brand}</p>
+      <div className="similar-product-details">
+        <p className="similar-price">Rs {price}/-</p>
+        <div className="similar-rating-con">
+          <p className="similar-rating">{rating}</p>
           <img
             src="https://assets.ccbp.in/frontend/react-js/star-img.png"
             alt="star"
-            className="star"
+            className="similar-star"
           />
         </div>
       </div>

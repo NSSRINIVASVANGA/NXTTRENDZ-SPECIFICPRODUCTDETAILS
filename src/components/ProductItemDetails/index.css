@@ -16,11 +16,37 @@
   border-radius: 20px;
 }
 
+@media (max-width: 767px) {
+  .details-img {
+    width: 300px;
+  }
+
+  .details-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .similar-name {
+    font-size: 20px;
+  color: #12022f;
+}
+
+}
+
 .text-con {
   padding: 10px;
   font-family: 'Roboto';
 }
+
+//NXTTRENDZ-SPECIFICPRODUCTDETAILS-UPDATED
+
 .name {
+  color: #12022f;
+}
+
+.similar-name {
   color: #12022f;
 }
 
@@ -56,10 +82,10 @@
 }
 
 .cart-val {
-  width: 150px;
+  width: 100px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .inc {

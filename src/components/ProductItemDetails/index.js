@@ -191,7 +191,7 @@ class ProductItemDetails extends Component {
           </div>
         </div>
         <div className="similar-con">
-          <h1 className="name"> Similar Products </h1>
+          <h1 className="similar-name"> Similar Products </h1>
           <ul className="similarproducts">
             {similarList.map(eachItem => (
               <SimilarProductItem details={eachItem} key={eachItem.id} />
